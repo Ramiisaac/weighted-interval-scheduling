@@ -8,18 +8,19 @@ Dynamic programming, weighted interval scheduling algorithm
 1. Python 3.9.2 (may or may work with other versions of Python)
 
 ## Test File Requirements
-FORMAT REQUIREMENTS
 
-1. First row formatting:
-
+FIRST ROW FORMATTING:
 A1 = "START", B1 = "FINISH", C1 = "VALUE"
+
 IF .CSV IN PLAINTEXT FILE, THEN:
 "START, FINISH, VALUE" 
 
-2. Additional rows:
+ADDITIONAL ROWS:
 
 a. Each row represents a new interval
 b. Formatted as start position, end position, interval value.
+
+ALSO:
 
 Intervals do not need to be sorted
 See requests-a.csv for example.

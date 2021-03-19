@@ -17,15 +17,8 @@ IF .CSV IN PLAINTEXT FILE, THEN:
 a. Each row represents a new interval
 b. Formatted as start position, end position, interval value.
 
-(example) requests-a.csv:
-START,FINISH,VALUE
-1, 3, 6
-4, 5, 20
-6, 9, 25
-4, 10, 50
-
-MISC. REQUIREMENTS:
-1. Intervals do not need to be sorted
+Intervals do not need to be sorted
+See requests-a.csv for example.
 
 ## User Manual
 INSTALLING

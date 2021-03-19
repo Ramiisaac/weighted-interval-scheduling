@@ -9,21 +9,13 @@ Dynamic programming, weighted interval scheduling algorithm
 
 ## Test File Requirements
 
-FIRST ROW FORMATTING:
-A1 = "START", B1 = "FINISH", C1 = "VALUE"
-
-IF .CSV IN PLAINTEXT FILE, THEN:
-"START, FINISH, VALUE" 
+First row formatted as A1 = "START", B1 = "FINISH", C1 = "VALUE" OR "START, FINISH, VALUE" if plaintext file.
 
 ADDITIONAL ROWS:
+1. Each row represents a new interval
+2. Formatted as start position, end position, interval value.
 
-a. Each row represents a new interval
-b. Formatted as start position, end position, interval value.
-
-ALSO:
-
-Intervals do not need to be sorted
-See requests-a.csv for example.
+Intervals do not need to be sorted. See requests-a.csv for example.
 
 ## User Manual
 INSTALLING

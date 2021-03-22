@@ -2,7 +2,7 @@
 Created by: Rami Isaac
 
 ## Description
-Dynamic programming, weighted interval scheduling algorithm
+Dynamic programming, weighted interval scheduling algorithm. Sorts intervals in nondecreasing order and uses binary search to find non-conflicing interval. Runs in O(n log(n)) time. Implemented in Python. Reads intervals from .csv and returns largest interval value to console.
 
 ## Requirements
 1. Python 3.9.2 (may or may work with other versions of Python)
@@ -20,7 +20,7 @@ Intervals do not need to be sorted. See requests-a.csv for example.
 ## User Manual
 INSTALLING
 1. Install Python 3.9.2.
-2. Clone this repository to a convenient location.
+2. Clone this repository
 
 RUNNING
 1. Open a command terminal, and cd to the location of the script.
